@@ -1,0 +1,14 @@
+.container {
+  margin: 0 auto;
+  max-width: 760px;
+}
+
+.App {
+  font-family: Roboto;
+  text-align: center;
+}
+
+.App-intro {
+  font-size: large;
+}
+
