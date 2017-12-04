@@ -1,0 +1,25 @@
+.ControlsWrapper {
+  left: 0;
+  position: absolute;
+}
+
+.IconWrapper {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.IconWrapper:focus {
+  outline: 0;
+}
+
+.ToolsWrapper {
+  left: 20px;
+  position: relative;
+}
+
+.ToolsWrapper:after {
+  clear: both;
+  content: "";
+  display: table;
+}

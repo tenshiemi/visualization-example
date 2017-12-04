@@ -1,10 +1,19 @@
+html {
+  font-size: 80%;
+}
+
+@media only screen and (min-width: 700px) {
+    html {
+      font-size: 90%;
+    }
+}
+
 .container {
   margin: 0 auto;
   max-width: 760px;
 }
 
 .App {
-  font-family: Roboto;
   text-align: center;
 }
 
